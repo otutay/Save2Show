@@ -28,3 +28,6 @@ self.data2Plot1 = ['loss', 'top1', 'top5']
 ```
 each element in the data2Plot2 and data2Plot1 is plotted in the same graph.
 You can use Show.py with the added hdf5 file.
+
+just run
+``` python Show.py```
