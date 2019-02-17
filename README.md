@@ -20,3 +20,10 @@ after that you can append new new results to that variable
 ```
 save.variable2Write(DataName1=Data1, DataName2=Data)
 ```
+
+Show.py reads the hdf5 file and plot the data with following given names. 
+```
+self.data2Plot2 = ['ValLoss',  'valTop1', 'valTop5']
+self.data2Plot1 = ['loss', 'top1', 'top5']
+'''
+each element in the data2Plot2 and data2Plot1 is plotted in the same graph.
